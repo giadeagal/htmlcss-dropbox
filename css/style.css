@@ -88,15 +88,13 @@ header .buttonholder a {
     color: white;
     height: 100%;
     line-height: 70px;
-    text-decoration: none;
-    font-size: 25px;
+    text-decoration: none;  
+    font-size: 20px;
+    margin: 0 20%;
+    padding: 0 20% 5px;
 }
 
 /* Debug */
 body.debug {
     background-color: #000;
-}
-
-.debug header .buttonholder {
-    background-color: tomato;
 }
