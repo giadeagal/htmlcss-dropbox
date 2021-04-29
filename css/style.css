@@ -62,18 +62,18 @@ header .logo a span {
     color: #000;
 }
 
-header .nav1 {
+header nav {
     width: 80%;
     height: 100%;
     line-height: 70px;
     font-size: 20px;
 }
 
-header .nav1 li {
+header nav li {
     margin: 0 20px;
 }
 
-header .nav1 li a {
+header nav li a {
     color: #000;
     font-weight: 500;
 }
