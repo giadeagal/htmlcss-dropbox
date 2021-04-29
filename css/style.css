@@ -37,6 +37,7 @@ header {
     position: fixed;
     top:0px;
     z-index: 900;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 /* Header - logo */
@@ -91,7 +92,7 @@ header .buttonholder {
     height: 100%;
 }
 
-header .buttonholder a {
+.buttonholder a {
     background-color: #0061ff;
     color: white;
     height: 100%;
@@ -136,9 +137,58 @@ header .buttonholder a {
     line-height: 1;
 }
 
+.jumbo-button {
+    width: 50px;
+}
+
+.jumbo-button a {
+    position: absolute;
+    top:500px;
+    left:0px;
+    background-color: #0061ff;
+    padding: 7px 2% 13px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron p.small {
+    font-size: 14px;
+    position:absolute;
+    top: 530px;
+    left:0px;
+}
+
+.jumbotron a i {
+    color:#0061ff;
+    position:absolute;
+    top: 600px;
+    left: 0px;
+    font-size: 80px;
+}
+
+.jumbotron img {
+    width:65%;
+    position:absolute;
+    top: 45%;
+    right:0px;
+}
+
+#piani-container {
+    width: 80%;
+    margin: 0 10%;
+    height: 800%;
+    padding-top: 100px;
+}
+
+#piani-container h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
 /* Jumbotron - immagine */
 
 /* Debug */
-body.debug {
+/* body.debug {
     background-color: #000;
-}
+} */
