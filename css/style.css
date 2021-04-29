@@ -4,7 +4,38 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+}
 
+/* Header */
+header {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+header .logo {
+    height: 100%;
+}
+
+header .logo a {
+    height: 100%;
+    line-height: 70px;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+header .logo a i{
+    color:#0061ff;
+    vertical-align: middle;
+}
+
+header .logo a span {
+    font-weight: bold;
+    color: #000;
+}
 
 /* Debug */
 body.debug {
