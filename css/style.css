@@ -52,7 +52,7 @@ header {
 /* Header - logo */
 header .logo {
     height: 100%;
-    width: 10%;
+    width: 12%;
 }
 
 header .logo a {
@@ -75,7 +75,7 @@ header .logo a span {
 
 /* header - nav */
 header nav {
-    width: 80%;
+    width: 73%;
     height: 100%;
     line-height: 70px;
     font-size: 20px;
@@ -248,8 +248,27 @@ header .buttonholder a:hover {
 }
 
 main .piani .col {
-    width: calc(100% / 3);
-    padding: 4% 3%;
+    width: calc((100% / 3) - 20px); 
+    font-size: 20px;
+    border: 1px solid #d0d0d3
+}
+
+main .piani .col.mid {
+    margin: 0px 30px;
+}
+
+main .piani .col p {
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 10px;
+}
+
+main .piani .col i {
+    margin-right: 10px;
+}
+
+main .piani .col h3{
+
 }
 
 /* Debug */
@@ -257,5 +276,4 @@ main .piani .col {
     height: 900px;
     background-color: brown;
     border: 2px dashed palevioletred;
-}
 }
