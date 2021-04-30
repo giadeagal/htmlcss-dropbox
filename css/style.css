@@ -198,7 +198,7 @@ header .buttonholder a:hover {
 }
 
 #piani-container {
-    width: 80%;
+    width: 75%;
     margin: 0 10%;
     height: 800%;
     padding-top: 100px;
@@ -206,12 +206,43 @@ header .buttonholder a:hover {
 
 #piani-container h2 {
     font-size: 60px;
-    text-align: center;
 }
 
-/* Jumbotron - immagine */
+/* Main */
+.fatturazione {
+    width: 100%;
+    padding-top: 50px;
+    font-size: 20px;
+}
 
-/* Debug */
-/* body.debug {
-    background-color: #000;
-} */
+.fatturazione span {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.fatturazione span:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+#sel {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #0061ff;
+    vertical-align: top;
+}
+
+.unsel {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d0d0d3;
+    vertical-align: top;
+}
+
+#sel, .unsel {
+    cursor: pointer;
+}
