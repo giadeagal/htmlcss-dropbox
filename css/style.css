@@ -93,12 +93,21 @@ header nav ul li a {
     color: #000;
     font-weight: 500;
     text-decoration: none;
+    padding: 28px 0;
+}
+
+header ul li:hover a{
+    border-bottom: 2px solid #000;
 }
 
 /* header - bottone */
 header .buttonholder {
     width: 10%;
     height: 100%;
+}
+
+header .buttonholder a:hover {
+    background-color: skyblue;
 }
 
 .buttonholder a {
@@ -161,10 +170,15 @@ header .buttonholder {
     text-decoration: none;
 }
 
+.jumbo-button:hover a{
+    background-color: skyblue;
+}
+
 .jumbotron p.small {
+    padding: 0;
     font-size: 14px;
     position:absolute;
-    top: 530px;
+    top: 550px;
     left:0px;
 }
 
