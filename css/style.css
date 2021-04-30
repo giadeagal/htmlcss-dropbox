@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+.button a{
+    text-decoration: none;
+}
+
 /* Font */
 .condensed {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -198,9 +202,8 @@ header .buttonholder a:hover {
 }
 
 #piani-container {
-    width: 75%;
+    width: 80%;
     margin: 0 10%;
-    height: 800%;
     padding-top: 100px;
 }
 
@@ -231,7 +234,7 @@ header .buttonholder a:hover {
     width: 20px;
     height: 20px;
     border: 5px solid #0061ff;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .unsel {
@@ -240,7 +243,7 @@ header .buttonholder a:hover {
     width: 20px;
     height: 20px;
     border: 2px solid #d0d0d3;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 #sel, .unsel {
@@ -257,7 +260,7 @@ main .piani .col.mid {
     margin: 0px 30px;
 }
 
-main .piani .col p {
+main .piani .col p.head {
     text-align: center;
     border-bottom: 1px solid #d0d0d3;
     padding: 10px;
@@ -267,13 +270,92 @@ main .piani .col i {
     margin-right: 10px;
 }
 
-main .piani .col h3{
+.col-inside {
+    margin: 10%;
+}
 
+.col-inside h3 {
+    font-size: 30px;
+}
+
+.col-inside p {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.col-inside p strong{
+    color: initial;
+    display: block;
+    padding: 10px 0 5px;
+}
+
+.col-inside ul {
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+.col-inside ul li {
+    padding: 15px 0;
+}
+
+.col-inside ul li span,
+.col-inside ul li i {
+    display: inline-block;
+}
+
+.col-inside ul li span {
+    width: 80%;
+    vertical-align: text-top;
+}
+
+
+.col-inside li::before {
+    margin-right: 10px;
+}
+
+.col-inside .button a{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 25px 8px;
+}
+
+.col-inside .button {
+    padding-bottom: 15px;
+}
+
+.col-inside a {
+    color: #0061ff;
+}
+
+.col-inside .line {
+    content: '';
+    width: 20%;
+    height: 1px;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 20px 0;
+}
+
+.col-inside h4 {
+    padding: 20px 0;
+}
+
+.col-inside ul.checked {
+    padding-bottom: 20px;
+}
+
+.col-inside ul.checked i{
+    color: #0061ff;
+    vertical-align: middle;
 }
 
 /* Debug */
-.debug .col {
-    height: 900px;
-    background-color: brown;
-    border: 2px dashed palevioletred;
+/* .debug .col { */
+    /* height: 900px; */
+    /* border: 2px dashed palevioletred;
+} */
+
+.row.debug {
+    height: 500px;
+    width: 100%;
+    background-color: #0061ff;
 }
