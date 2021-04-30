@@ -348,14 +348,58 @@ main .piani .col i {
     vertical-align: middle;
 }
 
+.row {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.row-inside {
+    border: 1px solid #d0d0d3;
+    position:relative;
+}
+
+.row-inside h3 {
+    font-size: 30px;
+    padding:20px 25px;
+}
+
+.row-inside p.head {
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 20px 0;
+}
+
+.row-inside .button {
+    position: absolute;
+    right:20px;
+    top: 95px;
+    /* width: 20px; */
+}
+
+.row-inside .button a {
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 50px 10px;
+    font-size: 20px;
+}
+
+.row-inside a:hover {
+    background-color: skyblue;
+}
+
+.row-inside h4 {
+    padding:20px 25px;
+    font-size: 22px;
+}
+
+.row-inside p:not(.head) {
+    padding:20px 25px;
+    font-size: 22px;
+    font-size: 18px;
+}
+
 /* Debug */
 /* .debug .col { */
     /* height: 900px; */
     /* border: 2px dashed palevioletred;
 } */
-
-.row.debug {
-    height: 500px;
-    width: 100%;
-    background-color: #0061ff;
-}
