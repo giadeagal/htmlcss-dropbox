@@ -29,6 +29,15 @@
     float:right;
 }
 
+/* Box */
+.lbox {
+    width: 50%;
+}
+
+.rbox {
+    width: 50%;
+}
+
 /* Header */
 header {
     height: 80px;
