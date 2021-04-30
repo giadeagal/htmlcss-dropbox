@@ -398,6 +398,40 @@ main .piani .col i {
     font-size: 18px;
 }
 
+.row .rbox {
+    width: 50%;
+    padding: 5%;
+}
+
+.row .rbox p {
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+.row .lbox {
+    width: 50%;
+}
+
+.row .rbox h3 {
+    font-size: 30px;
+}
+
+.row .rbox .button a {
+    background-color: #fff;
+    padding: 7px 20px 13px;
+    font-size: 20px;
+    color: #000;
+    border: 1px solid #000
+}
+
+.row .rbox .button a:hover {
+    background-color: #d0d0d3;
+}
+
+.row img {
+    width: 100%;
+}
+
 /* Debug */
 /* .debug .col { */
     /* height: 900px; */
