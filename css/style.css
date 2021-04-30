@@ -211,7 +211,7 @@ header .buttonholder a:hover {
 /* Main */
 .fatturazione {
     width: 100%;
-    padding-top: 50px;
+    padding: 50px 0 50px;
     font-size: 20px;
 }
 
@@ -245,4 +245,17 @@ header .buttonholder a:hover {
 
 #sel, .unsel {
     cursor: pointer;
+}
+
+main .piani .col {
+    width: calc(100% / 3);
+    padding: 4% 3%;
+}
+
+/* Debug */
+.debug .col {
+    height: 900px;
+    background-color: brown;
+    border: 2px dashed palevioletred;
+}
 }
