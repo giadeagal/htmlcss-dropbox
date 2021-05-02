@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+.container {
+    width: 80%;
+    margin: 0 10%;
+}
+
 /* Font */
 .condensed {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -201,14 +206,15 @@ header .buttonholder a:hover {
     right:0px;
 }
 
+section h2 {
+   font-size: 60px;
+   padding: 40px 0 20px; 
+}
+
 #piani-container {
     width: 80%;
     margin: 0 10%;
     padding-top: 100px;
-}
-
-#piani-container h2 {
-    font-size: 60px;
 }
 
 /* Main */
@@ -430,6 +436,28 @@ main .piani .col i {
 
 .row img {
     width: 100%;
+}
+
+.card {
+    width: calc(100% / 3);
+    height: 650px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.card p a {
+    color: black;
 }
 
 /* Debug */
