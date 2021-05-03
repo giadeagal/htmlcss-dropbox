@@ -627,18 +627,18 @@ section[class^="prova"] .bigrow span a {
 .faq ul {
     font-size: 25px;
     list-style-type: none;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .faq ul li {
     padding:20px 0;
-    border-top: 1px solid black;
+    border-top: 1px solid #e7e7e9;
     position:relative;
     width: 100%;
 }
 
 .faq ul li:last-child {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e7e7e9;
 }
 
 .faq ul li p {
@@ -649,18 +649,19 @@ section[class^="prova"] .bigrow span a {
     width: 5%;
 }
 
-.faq ul li span.head
-
 .faq ul li span.hidden {
     display: none;
 }
 
 .faq ul li:hover span.hidden {
     display: block;
-    margin-top: 50px;
-    color: gray;
+    color: #8c98a2;
+    padding-top: 20px;
 }
 
+span.hidden a {
+    color: #8c98a2;
+}
 
 /* Debug */
 /* .debug .col { */
