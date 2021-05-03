@@ -486,6 +486,10 @@ main .piani .col i {
     height: 100%;
 }
 
+.bigrow .box.mid {
+    overflow: auto;
+}
+
 .bigrow .box [class^="minibox"] {
     width: 50%;
     height: 50%;
@@ -630,18 +634,33 @@ section[class^="prova"] .bigrow span a {
     padding:20px 0;
     border-top: 1px solid black;
     position:relative;
+    width: 100%;
 }
 
 .faq ul li:last-child {
     border-bottom: 1px solid black;
 }
 
-.faq ul li i {
-    text-align: right;
-    position:absolute;
-    right:0px;
-    bottom:30%
+.faq ul li p {
+    width: 60%;
 }
+
+.faq ul li .icona {
+    width: 5%;
+}
+
+.faq ul li span.head
+
+.faq ul li span.hidden {
+    display: none;
+}
+
+.faq ul li:hover span.hidden {
+    display: block;
+    margin-top: 50px;
+    color: gray;
+}
+
 
 /* Debug */
 /* .debug .col { */
