@@ -259,7 +259,8 @@ section h2 {
 main .piani .col {
     width: calc((100% / 3) - 20px); 
     font-size: 20px;
-    border: 1px solid #d0d0d3
+    border: 1px solid #d0d0d3;
+    min-height: 1380px;
 }
 
 main .piani .col.mid {
@@ -343,6 +344,10 @@ main .piani .col i {
 
 .col-inside h4 {
     padding: 20px 0;
+}
+
+.col-inside. h4.bottompad{
+    padding-bottom: 100px;
 }
 
 .col-inside ul.checked {
@@ -460,8 +465,44 @@ main .piani .col i {
     color: black;
 }
 
+.clienti h3 {
+    font-size: 30px;
+}
+
+.clienti h3 a {
+    color:#0061ff;
+    margin: 50px 0;
+    display:inline-block;
+    padding-bottom: 25px;
+}
+
+.bigrow {
+    width: 100%;
+    height: 500px;
+}
+
+.bigrow .box {
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.bigrow .box .minibox {
+    width: 50%;
+    height: 50%;
+    background-color: #0061ff;
+    border: 2px dashed greenyellow;
+}
+
+.bigrow .box .minibox img {
+    width: 60%;
+}
+
 /* Debug */
 /* .debug .col { */
     /* height: 900px; */
     /* border: 2px dashed palevioletred;
 } */
+
+.debug .box {
+    background-color: gray;
+}
