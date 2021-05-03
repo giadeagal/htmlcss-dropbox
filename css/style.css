@@ -489,12 +489,18 @@ main .piani .col i {
 .bigrow .box .minibox {
     width: 50%;
     height: 50%;
-    background-color: #0061ff;
+    background-color: darkblue;
     border: 2px dashed greenyellow;
+    position: relative;
 }
 
 .bigrow .box .minibox img {
-    width: 60%;
+    width: 50%;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 /* Debug */
