@@ -486,16 +486,16 @@ main .piani .col i {
     height: 100%;
 }
 
-.bigrow .box .minibox {
+.bigrow .box [class^="minibox"] {
     width: 50%;
     height: 50%;
-    background-color: darkblue;
+    /* background-color: darkblue; */
     border: 2px dashed greenyellow;
     position: relative;
 }
 
-.bigrow .box .minibox img {
-    width: 50%;
+.bigrow .box [class^="minibox"] img {
+    width: 60%;
     filter: invert(1);
     position: absolute;
     top: 50%;
@@ -503,8 +503,44 @@ main .piani .col i {
     transform: translate(-50%, -50%)
 }
 
-.bigrow .box .minibox.active {
+.bigrow .box [class^="minibox"].active {
     border: 10px solid rgba(255, 255, 255, 0.7)
+}
+
+.bigrow .box [class^="minibox"].active img {
+    width: calc(60% + 10px);
+}
+
+.minibox1 {
+    background-color: #a2d39b;
+}
+
+.minibox2 {
+    background-color: #61082b;
+}
+
+.minibox3 {
+    background-color: #0093ce;
+}
+
+.minibox4 {
+    background-color: #ff1c1c;
+}
+
+.minibox5 {
+    background-color: #d5001f;
+}
+
+.minibox6 {
+    background-color: #b4d0e7;
+}
+
+.minibox7 {
+    background-color: #0d2481;
+}
+
+.minibox8 {
+    background-color: #ffd830;
 }
 
 /* Debug */
