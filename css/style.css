@@ -489,8 +489,6 @@ main .piani .col i {
 .bigrow .box [class^="minibox"] {
     width: 50%;
     height: 50%;
-    /* background-color: darkblue; */
-    border: 2px dashed greenyellow;
     position: relative;
 }
 
@@ -543,12 +541,39 @@ main .piani .col i {
     background-color: #ffd830;
 }
 
+.box.mid {
+    background-color: #f5f5f5;
+    padding: 60px;    
+}
+
+.box.mid img {
+    width: 40%;
+}
+
+.box.mid .line {
+    content: '';
+    width: 20%;
+    height: 1px;
+    border-bottom: 1px solid #e2e2e4;
+    padding: 20px 0;
+}
+
+.box.mid p {
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.box.mid p span {
+    display: block;
+    padding-top: 20px;
+}
+
 /* Debug */
 /* .debug .col { */
     /* height: 900px; */
     /* border: 2px dashed palevioletred;
 } */
 
-.debug .box {
+/* .debug .box {
     background-color: gray;
-}
+} */
