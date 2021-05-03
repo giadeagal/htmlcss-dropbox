@@ -615,6 +615,34 @@ section[class^="prova"] .bigrow span a {
     color:black;
 }
 
+.faq h3 {
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.faq ul {
+    font-size: 25px;
+    list-style-type: none;
+    padding: 50px 0;
+}
+
+.faq ul li {
+    padding:20px 0;
+    border-top: 1px solid black;
+    position:relative;
+}
+
+.faq ul li:last-child {
+    border-bottom: 1px solid black;
+}
+
+.faq ul li i {
+    text-align: right;
+    position:absolute;
+    right:0px;
+    bottom:30%
+}
+
 /* Debug */
 /* .debug .col { */
     /* height: 900px; */
