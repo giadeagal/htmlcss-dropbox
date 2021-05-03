@@ -668,6 +668,81 @@ span.hidden a {
     color: #8c98a2;
 }
 
+/* Footer */
+footer {
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+}
+
+footer .footertop {
+    width: 80%;
+    margin: 0 10%;
+    padding-top: 150px;
+    font-size: 20px;
+    ;
+}
+
+.footertop .col {
+    width: calc((100% - 80px) /5);
+}
+
+.footertop .col:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.footertop .col ul {
+    list-style-type: none;
+    color: #fff;
+}
+
+.footertop .col ul li:first-child {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.footertop .col ul li:not(:first-child) {
+    padding-bottom: 5px;
+}
+
+.footertop .col ul a {
+    color:white;
+    text-decoration: none;
+}
+
+.footertop .col ul a:hover {
+    text-decoration: underline;
+}
+
+.footertop .col:first-child {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #fff;
+}
+
+footer .footerbottom {
+    padding-top: 100px;
+    width: 80%;
+    margin:0 10%;
+    color: #666666;
+}
+
+footer .footerbottom p {
+    cursor: pointer;
+}
+
+footer .footerbottom i:first-child {
+    color: #c0c6cb;
+    margin-right: 10px;
+}
+
+footer .footerbottom i:last-of-type {
+    margin-left: 5px;
+}
+
+
+
+
 /* Debug */
 /* .debug .col { */
     /* height: 900px; */
