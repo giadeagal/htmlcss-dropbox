@@ -659,6 +659,11 @@ section[class^="prova"] .bigrow span a {
     padding-top: 20px;
 }
 
+.faq ul li:hover i {
+    transform: rotate(180deg);
+    transition-duration: 60ms;
+}
+
 span.hidden a {
     color: #8c98a2;
 }
